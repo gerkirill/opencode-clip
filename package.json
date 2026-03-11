@@ -2,6 +2,7 @@
   "name": "opencode-clip",
   "version": "0.0.2",
   "description": "Copy the last AI response to clipboard",
+  "main": "./src/index.ts",
   "author": {
     "name": "Kyrylo",
     "email": "k.gerasimenko@gmail.com"
