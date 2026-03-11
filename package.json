@@ -9,7 +9,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gerkirill/opencode-clip"
+    "url": "git+https://github.com/gerkirill/opencode-clip.git"
   },
   "publishConfig": {
     "access": "public"
