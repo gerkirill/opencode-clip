@@ -7,12 +7,6 @@
     "email": "k.gerasimenko@gmail.com"
   },
   "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gerkirill/opencode-clip"
@@ -21,12 +15,11 @@
     "access": "public"
   },
   "files": [
-    "dist",
-    "src/version.ts"
+    "src"
   ],
   "opencode": {
     "plugin": {
-      "entry": "./dist/index.js",
+      "entry": "./src/index.ts",
       "name": "clip"
     }
   },

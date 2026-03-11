@@ -29,9 +29,7 @@ Or manually add to your `opencode.json`:
 
 ```json
 {
-  "plugins": [
-    "opencode-clip"
-  ]
+  "plugins": ["opencode-clip"]
 }
 ```
 
@@ -44,6 +42,7 @@ Once installed, you can use the `/clip` command in any OpenCode session:
 ```
 
 This will:
+
 1. Find the last AI assistant message in the current session
 2. Copy its text content to your clipboard
 3. Show a success toast notification with the character count
@@ -71,17 +70,6 @@ The AI response is now in your clipboard and ready to paste.
 
 ```bash
 bun install
-```
-
-### Build
-
-```bash
-# With mise
-mise run build
-
-# Or directly with bun
-bun build ./src/index.ts --outdir dist --target bun
-npx tsc --project tsconfig.build.json
 ```
 
 ### Test
