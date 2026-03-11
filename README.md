@@ -10,26 +10,11 @@ This OpenCode plugin provides a `/clip` command that copies the last AI assistan
 
 ## Installation
 
-### Via npm
-
-```bash
-npm install opencode-clip
-```
-
-### Via OpenCode
-
-Add the plugin to your OpenCode configuration:
-
-```bash
-# In your opencode project directory
-opencode plugin add opencode-clip
-```
-
-Or manually add to your `opencode.json`:
+Add following to your opencode configuration JSON file:
 
 ```json
 {
-  "plugins": ["opencode-clip"]
+  "plugins": ["opencode-clip@latest"]
 }
 ```
 
