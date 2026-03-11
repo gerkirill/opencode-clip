@@ -1,6 +1,6 @@
 {
   "name": "opencode-clip",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Copy the last AI response to clipboard",
   "main": "./src/index.ts",
   "author": {
