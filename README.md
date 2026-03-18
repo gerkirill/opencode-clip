@@ -2,6 +2,8 @@
 
 Copy the last AI response to clipboard
 
+UPD: The extension is obsolete, because it provides the same functionality the `Ctrl+X,Y` shortcut provides, but at the cost of an extra AI call.
+
 > An OpenCode plugin created from the [bun-module](https://github.com/zenobi-us/bun-module) template
 
 ## Description
@@ -14,7 +16,7 @@ Add following to your opencode configuration JSON file:
 
 ```json
 {
-  "plugins": ["opencode-clip@latest"]
+  "plugin": ["opencode-clip@latest"]
 }
 ```
 
